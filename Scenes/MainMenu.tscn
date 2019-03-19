@@ -65,7 +65,7 @@ use_filter = false
 font_data = ExtResource( 4 )
 _sections_unfolded = [ "Font", "Settings" ]
 
-[node name="MainMenu" type="CanvasLayer"]
+[node name="MainMenu" type="CanvasLayer" index="0"]
 
 layer = 1
 offset = Vector2( 0, 0 )
@@ -240,6 +240,7 @@ size_flags_vertical = 1
 
 frames = SubResource( 2 )
 animation = "default"
+frame = 3
 playing = true
 centered = false
 
@@ -248,7 +249,7 @@ centered = false
 visible = false
 frames = SubResource( 3 )
 animation = "default"
-frame = 1
+frame = 2
 playing = true
 centered = false
 
@@ -257,7 +258,6 @@ centered = false
 visible = false
 frames = SubResource( 4 )
 animation = "default"
-frame = 1
 playing = true
 centered = false
 
